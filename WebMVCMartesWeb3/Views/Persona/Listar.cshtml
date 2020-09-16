@@ -1,0 +1,28 @@
+﻿@using ServiceLayer
+
+@model List<Persona>
+
+@{
+    ViewBag.Title = "Listar";
+}
+
+<h2>Listar</h2>
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Apellido</td>
+    </tr>
+    @foreach (Persona p in Model)
+    {
+        <tr>
+            <td>@p.Nombre</td>
+            <td>@p.Apellido</td>
+            
+        </tr>
+    }
+
+</table>
+
+<hr />
+
+<a href="/Persona/CrearNuevo">CrearNuevo</a>

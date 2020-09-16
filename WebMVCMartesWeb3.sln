@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCMartesWeb3", "WebMVCMartesWeb3\WebMVCMartesWeb3.csproj", "{5F350D46-21BD-4F4D-A322-1590B988CD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{CDB00A73-1F9D-40E0-8F51-0F200A65B64C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F350D46-21BD-4F4D-A322-1590B988CD46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F350D46-21BD-4F4D-A322-1590B988CD46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F350D46-21BD-4F4D-A322-1590B988CD46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F350D46-21BD-4F4D-A322-1590B988CD46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDB00A73-1F9D-40E0-8F51-0F200A65B64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB00A73-1F9D-40E0-8F51-0F200A65B64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB00A73-1F9D-40E0-8F51-0F200A65B64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB00A73-1F9D-40E0-8F51-0F200A65B64C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70722AE4-00F0-42DA-8EAB-9A9BB2254622}
+	EndGlobalSection
+EndGlobal

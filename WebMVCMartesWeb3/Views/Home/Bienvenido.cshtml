@@ -1,0 +1,36 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "Bienvenido";
+
+    string Mensaje = "Hola Clase";
+
+    //int edad = 0;
+    //if (edad > 40)
+    //{ 
+
+    //}
+    string miID = ViewBag.MiId;
+
+}
+
+<h1> @Mensaje </h1>
+
+<h2>Bienvenido</h2>
+
+<div>@miID</div>
+
+@foreach (string s in Model)
+{ 
+    <div>
+    
+    </div>
+}
+
+
+
+
+
+
+
+
